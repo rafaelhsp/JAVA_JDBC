@@ -1,0 +1,8 @@
+import Dao.DataSource;
+
+public class teste {
+        public static void main(String[] args){
+            DataSource dc = new DataSource();
+            dc.closeConnection();
+        }
+}
